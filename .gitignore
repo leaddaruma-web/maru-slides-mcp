@@ -1,0 +1,41 @@
+node_modules
+token.json
+credentials.json
+client_secret*.json
+
+# Sổ vết lệnh ghi (cục bộ, có id deck của người dùng)
+so-vet/
+*.jsonl
+
+# Kết quả chạy kiểm (ảnh, PDF, kết quả thô)
+ket-qua-kiem/
+
+# Nhật ký hội thoại agent: luôn coi như chứa khoá thật
+history.jsonl
+file-history/
+jobs/
+.claude/settings.local.json
+
+# Khoá bí mật
+.env
+.env.*
+!.env.example
+secrets.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# File tạm
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+.cache/
+
+# Báo cáo nghiệm thu: có id deck thật và ảnh trang thật, giữ trên máy
+bao-cao/
